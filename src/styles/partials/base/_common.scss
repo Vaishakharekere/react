@@ -1,6 +1,7 @@
 .container {
     max-width: 1440px;
     @include mx-auto;
+    color: #fff;
     @include padding-x(0.75rem, 0.75rem);
 
     @include devices(xl) {
